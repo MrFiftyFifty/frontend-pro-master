@@ -1,0 +1,127 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+}
+
+.header__img {
+    margin-right: 53px;
+}
+
+.header__search {
+    width: 581px;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.main {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.main__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main__hcol {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+
+.main__load {
+    height: 300px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    background-image: url(../img/load.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 12px 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #9873FF;
+    color: #9873FF;
+}
+
+.main__btn span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+.modal__content input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.modal__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal__buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#modal-submit {
+    background: #9873FF;
+    color: white;
+}
+
+#modal-cancel {
+    background: #F5F5F5;
+    color: #333333;
+}
